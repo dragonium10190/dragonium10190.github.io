@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dragonium LLC</title>
+  <meta name="description" content="Dragonium LLC — independent games and software.">
+  <style>
+    :root { --bg: #14161a; --fg: #eef0f3; --muted: #9aa1ab; --accent: #e0563b; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; }
+    body {
+      background: radial-gradient(ellipse at top, #22262d 0%, var(--bg) 60%);
+      color: var(--fg);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 24px 16px;
+    }
+    h1 { font-size: clamp(2.4rem, 8vw, 4.5rem); font-weight: 300; letter-spacing: .02em; margin: 0; }
+    .bar { width: 64px; height: 3px; background: var(--accent); margin: 24px auto; border-radius: 2px; }
+    p { color: var(--muted); font-size: 1.1rem; margin: 0; }
+    footer { position: fixed; bottom: 16px; color: var(--muted); font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <h1>Dragonium LLC</h1>
+  <div class="bar"></div>
+  <p>Independent games and software.</p>
+  <footer>&copy; 2026 Dragonium LLC</footer>
+</body>
+</html>
